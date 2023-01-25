@@ -1,26 +1,36 @@
 table {
-	border-collapse: collapse;
-	margin: 0 auto;
+  border-collapse: collapse;
+  margin: 0 auto;
 }
 
 td {
-	width: 100px;
-	height: 100px;
-	text-align: center;
-	vertical-align: middle;
-	border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid black;
 }
 
 .x {
-	color: blue;
-	font-size: 80px;
+  color: blue;
+  font-size: 80px;
 }
 
 .o {
-	color: red;
-	font-size: 80px;
+  color: red;
+  font-size: 80px;
 }
 
 .win {
-	background-color: yellow;
+  background-color: yellow;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+#reset {
+  margin: 48px 40%;
+  padding: 20px;
 }
